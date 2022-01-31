@@ -1,0 +1,40 @@
+<html>
+  <link rel="stylesheet" href="login.css" />
+
+  <div class="login-form">
+    <h1 class="header">Welcome!</h1>
+    <p>Create an account or login</p>
+
+    <form action="auth" method="POST" class="from-login">
+      <input
+        type="text"
+        name="username"
+        placeholder="Username"
+        id="user"
+        class="user-input"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        id="password"
+        class="user-input"
+        required
+      />
+      <br />
+      <input type="submit" value="login" class="submit-input" id="login" />
+      <button
+        type="submit"
+        class="submit-input-register"
+        onclick="window.location.href = '/register.ejs';"
+      >
+        register
+      </button>
+
+      <!-- <a href="/register" class="submit-input-register">register</a> -->
+      <!-- <input type="button" value="register" class="submit-input-register" /> -->
+    </form>
+  </div>
+  <script src="../routes/index.js"></script>
+</html>
