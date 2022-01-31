@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(70, 130, 180);
+}
+p {
+  font-size: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    margin-bottom: 10px;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.register-form {
+  font-family: arial;
+  font-size: 24px;
+  margin: auto;
+  padding: 1em;
+  width: 300px;
+  border: 3px solid gray;
+  padding: 100px;
+  background-color: white;
+}
+
+.header {
+  position: static;
+  text-align: center;
+  color: #4d4d4d;
+  padding: 20px 0 20px 0;
+}
+.label {
+  position: relative;
+  text-align: center;
+}
+.user-input {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 15px;
+
+  padding: 10px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.submit-input {
+  width: 100%;
+  padding: 15px;
+  background-color: #535b63;
+  margin-bottom: 10px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.submit-input-register {
+  width: 100%;
+  padding: 15px;
+  background-color: #535b63;
+  margin-bottom: 10px;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
